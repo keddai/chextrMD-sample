@@ -6,12 +6,12 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport">
 	<link href="css/main.css" rel="stylesheet">
-	<link href="css/faq.css" rel="stylesheet">
+	<link href="css/contactus.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" crossorigin="anonymous">
 	<link rel="icon" type="image/svg+xml" href="images/logo/favicon-dark.svg" media="(prefers-color-scheme: light">
 	<link rel="icon" type="image/svg+xml" href="images/logo/favicon-light.webp" media="(prefers-color-scheme: dark">
 	<script src="js/app.js" defer></script>
-	<title>Frequently Asked Question | Deen's Books</title>
+	<title>Contact Us | Deen's Books</title>
 	<meta
 		content="Deen's Books is Guyana's beloved traditional bookstore now available at your fingertips. Browse our extensive catalogue, get in touch with us or learn about the business."
 		name="description">
@@ -50,72 +50,65 @@
 		</nav>
 	</header>
 
-
 	<!-- Main content area -->
 	<main class="container">
-		<h1 class="page-title">Frequently Asked Questions</h1>
-		<section class="faq">
-			<div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
-				<svg xmlns="http://www.w3.org/2000/svg" width="0">
-					<symbol viewBox="0 0 24 24" id="expand-more">
-						<path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
-						<path d="M0 0h24v24H0z" fill="none" />
-					</symbol>
-					<symbol viewBox="0 0 24 24" id="close">
-						<path
-							d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
-						<path d="M0 0h24v24H0z" fill="none" />
-					</symbol>
-				</svg>
+		<h1 class="page-title">Contact Us</h1>
+		<section class="contact">
+			<div class="content">
+				<div class="left-side">
+					<div class="address details">
+						<i class="fas fa-map-marker-alt"></i>
+						<div class="topic">Address</div>
+						<div class="text-one">34 Church Street</div>
+						<div class="text-two">South Cummingsburg, Georgetown</div>
+					</div>
+					<div class="phone details">
+						<i class="fas fa-phone-alt"></i>
+						<div class="topic">Phone</div>
+						<div class="text-one">+592 678-3940</div>
+						<div class="text-two">+592 135 6495</div>
+					</div>
+					<div class="email details">
+						<i class="fas fa-envelope"></i>
+						<div class="topic">Email</div>
+						<div class="text-one">contact@deensbooks.com</div>
+						<div class="text-two">DeensBooks@gmail.com</div>
+					</div>
+					<div class="social details">
+						<div class="social-icons">
+							<a href="https://www.facebook.com/">
+								<i class="fa-brands fa-facebook"></i>
+							</a>
+							<a href="https:/www.instagram.com/">
+								<i class="fa-brands fa-instagram"></i>
+							</a>
+						</div>
+						<div class="topic">Social Media</div>
+					</div>
+				</div>
+
+				<div class="right-side">
+					<div class="topic-text">Questions, Queries or Comments?</div>
+					<p>Please use the form below if you have any requests or queries, and we will get back to you as
+						soon as possible!</p>
+					<form action="https://formspree.io/f/mjvznvvl" method="POST">
+						<div class="input-box">
+							<input name="name" type="text" class="feedback-input" placeholder="Name" required />
+						</div>
+						<div class="input-box">
+							<input name="email" type="text" class="feedback-input" placeholder="Email" required />
+						</div>
+						<div class="input-box message-box">
+							<textarea id="Message" name="subject" placeholder="Message"></textarea>
+						</div>
+						<div class="button">
+							<input type="submit" value="Submit">
+						</div>
+					</form>
+				</div>
 			</div>
-
-			<details>
-				<summary>
-					How long have you been in business?
-					<svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
-					</svg>
-					<svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
-					</svg>
-				</summary>
-				<br>
-				<p>We have been serving the good people of Guyana since 1970!</p>
-			</details>
-
-			<details>
-				<summary>
-					How are your books so cheap?
-					<svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
-					</svg>
-					<svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
-					</svg>
-				</summary>
-				<br>
-				<p>We source all our books directly from the publisher, allowing our customers to have the newest
-					releases at the best prices.</p>
-			</details>
-
-			<details>
-				<summary>
-					Do you sell books other than those listed?
-					<svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
-					</svg>
-					<svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
-					</svg>
-				</summary>
-				<br>
-				<p>We offer a private order service for books that are not readily available.
-					<br> For more information, contact our manager on #615 5878 or manager@deensbooks.com
-				</p>
-			</details>
 		</section>
 	</main>
-
 
 	<!-- Footer -->
 	<footer class="footer">

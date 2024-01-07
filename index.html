@@ -2,179 +2,320 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="" />
-  <link rel="shortcut" href="favicon.ico" type="image/x-icon" />
-  <title>Chextr MD WORK IN PROGRESS</title>
-
-  <!-- Global CSS -->
-  <link rel="stylesheet" href="css/main.css" />
-  <!-- Page CSS-->
-  <link rel="stylesheet" href="css/index.css" />
-  <!-- Main Js -->
-  <script src="js/app.js" defer></script>
-  <!-- Font Awesome CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Boostrap CSS -->
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" crossorigin="anonymous">
+	<link rel="icon" type="image/svg+xml" href="images/logo/favicon-dark.ico" media="(prefers-color-scheme: light">
+	<link rel="icon" type="image/svg+xml" href="images/logo/favicon-light.webp" media="(prefers-color-scheme: dark">
+	<script src="js/app.js" defer></script>
+	<script src="js/glide.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="css/carousel/glide.core.min.css">
+	<link rel="stylesheet" href="css/carousel/glide.theme.min.css">
+	<title>Deen's Books</title>
+	<meta
+		content="Deen's Books is Guyana's beloved traditional bookstore now available at your fingertips. Browse our extensive catalogue, get in touch with us or learn about the business."
+		name="description">
 </head>
 
 <body>
-  <!-- Navigation bar -->
-  <header class="header">
-    <a href="index.html" class="home_link">
-      <img class="nav_logo" src="assets/logo.png" alt="brand-logo" height="auto" width="220px" />
-    </a>
-    <button href="#" class="nav_toggle" aria-controls="nav_list" aria-label="menu" aria-expanded="false">
-      <span class="visually_hidden">menu</span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </button>
-    <div class="navigation" data-visible="false">
-      <nav class="nav_links">
-        <ul class="nav_list">
-          <li><a href="features.html">Features</a></li>
-          <li><a href="faq.html">Frequently Asked Questions</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-      <button class="cta nav">Download</button>
-    </div>
-  </header>
-  <!-- Main container -->
-  <main>
-    <!-- Sections for pages -->
-    <section>
-      <div class="hero_container">
-        <video class="hero_video" autoplay muted loop>
-          <source src="assets/chextrmd-hero2.mp4" type="video/mp4">
-        </video>
-        <div class="hero_text">
-          <div class="hero_header">
-            ChextrMD
-          </div>
-          <div class="hero_subtitle">
-            The instant messaging application for convenient and fast communication between doctors and patients.
-          </div>
-        </div>
-        <div class="hero_btns">
-          <button class="cta hero">
-            Download
-          </button>
-          <button class="primary_btn hero">
-            Learn More
-          </button>
-        </div>
-      </div>
-    </section>
-    <section class="promo_container">
-      <div class="promo_img_container">
-        <img class="promo_img" src="assets/promo.png" height="auto" width="280px">
-      </div>
-      <div class="promo_text_container">
-        <div class="promo_text">
-          <h1>
-            Simplify Access, Enhance Care
-          </h1>
-          <h2>
-            Experience the future of healthcare communication with
-            ChextrMD. Providing an instant connection between doctors and
-            patients, for more convenient and personalized care.
-          </h2>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="promo_row">
-        <div class="promo_box">
-          <svg class="icon_hand" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M459.15 269.75a133.197 133.197 0 0 1-55.862 179.975l-42.782 22.541-10.52 5.533a71.277 71.277 0 0 1-62.966 1.685l-167.077-71.38 15.733-46.676 99.363 19.194-51.458-97.78-82.843-157.411 40.357-21.232 82.844 157.457 19.934-10.485-36.521-69.445 40.335-21.22 36.52 69.445 19.935-10.485-28.2-53.598 40.358-21.232 28.2 53.598 19.945-10.576-19.354-36.886 40.346-21.174 19.354 36.885 54.348 103.301zM73.268 146.674a60.03 60.03 0 0 1 42.361-102.459 60.098 60.098 0 0 1 56.58 80.169l10.588 20.013A78.29 78.29 0 0 0 115.708 26a78.233 78.233 0 0 0-5.635 156.262L99.428 162.02a59.688 59.688 0 0 1-26.16-15.346z" />
-          </svg>
-          <h2>Ease of Access</h2>
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos hic nemo ex deleniti magni
-            autem, porro atque dignissimos eveniet.</span>
-        </div>
-        <div class="promo_box">
-          <svg class="icon_lock" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve">
-            <g id="XMLID_509_">
-              <path id="XMLID_510_" d="M65,330h200c8.284,0,15-6.716,15-15V145c0-8.284-6.716-15-15-15h-15V85c0-46.869-38.131-85-85-85
-          S80,38.131,80,85v45H65c-8.284,0-15,6.716-15,15v170C50,323.284,56.716,330,65,330z M180,234.986V255c0,8.284-6.716,15-15,15
-          s-15-6.716-15-15v-20.014c-6.068-4.565-10-11.824-10-19.986c0-13.785,11.215-25,25-25s25,11.215,25,25
-          C190,223.162,186.068,230.421,180,234.986z M110,85c0-30.327,24.673-55,55-55s55,24.673,55,55v45H110V85z" />
-            </g>
-          </svg>
-          <h2>Secure and Confidential</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos hic nemo ex deleniti magni
-            autem, porro atque dignissimos eveniet.</p>
-        </div>
-        <div class="promo_box">
-          <svg class="icon_check" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M13.8179 4.54512L13.6275 4.27845C12.8298 3.16176 11.1702 3.16176 10.3725 4.27845L10.1821 4.54512C9.76092 5.13471 9.05384 5.45043 8.33373 5.37041L7.48471 5.27608C6.21088 5.13454 5.13454 6.21088 5.27608 7.48471L5.37041 8.33373C5.45043 9.05384 5.13471 9.76092 4.54512 10.1821L4.27845 10.3725C3.16176 11.1702 3.16176 12.8298 4.27845 13.6275L4.54512 13.8179C5.13471 14.2391 5.45043 14.9462 5.37041 15.6663L5.27608 16.5153C5.13454 17.7891 6.21088 18.8655 7.48471 18.7239L8.33373 18.6296C9.05384 18.5496 9.76092 18.8653 10.1821 19.4549L10.3725 19.7215C11.1702 20.8382 12.8298 20.8382 13.6275 19.7215L13.8179 19.4549C14.2391 18.8653 14.9462 18.5496 15.6663 18.6296L16.5153 18.7239C17.7891 18.8655 18.8655 17.7891 18.7239 16.5153L18.6296 15.6663C18.5496 14.9462 18.8653 14.2391 19.4549 13.8179L19.7215 13.6275C20.8382 12.8298 20.8382 11.1702 19.7215 10.3725L19.4549 10.1821C18.8653 9.76092 18.5496 9.05384 18.6296 8.33373L18.7239 7.48471C18.8655 6.21088 17.7891 5.13454 16.5153 5.27608L15.6663 5.37041C14.9462 5.45043 14.2391 5.13471 13.8179 4.54512Z"
-              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M9 12L10.8189 13.8189V13.8189C10.9189 13.9189 11.0811 13.9189 11.1811 13.8189V13.8189L15 10"
-              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-          <h2>Verified and Certified</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos hic nemo ex deleniti magni
-            autem, porro atque dignissimos eveniet.</p>
-        </div>
-      </div>
-    </section>
-  </main>
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer_content">
-      <div class="footer_left">
-        <img class="footer_brand" src="assets/logo-white-full.png" height="auto" width="230px">
-        <div class="footer_badges">
-          <a href="https://play.google.com/store/apps?hl=en&gl=US" alt="Get it on Google Play" target="_blank">
-            <img class="badges footer google" src="assets/playstore-badge.png" alt="Google Play Store Badge">
-          </a>
-          <a href="https://www.apple.com/app-store/" alt="Get it on the App Store">
-            <img class="badges footer google" src="assets/appstore_badge.png" alt="App Store Badge">
-          </a>
-        </div>
-      </div>
-      <div class=" footer_middle" aria-label="Site map">
-        <h3>Site Map</h3>
-        <a href="features.html">Features</a>
-        <a href="faq.html">Frequently Asked Questions</a>
-        <a href="about.html">About</a>
-      </div>
-      <div class="footer_right" aria-label="Contact infromation">
-        <h3>Contact</h3>
-        <div class="contact">
-          <div class="contact_row">
-            <i class="fa-solid fa-envelope"></i>
-            <span>support@chextrmd.com</span>
-          </div>
-          <div class="contact_row">
-            <i class="fa-solid fa-phone"></i>
-            <span aria>578-4937</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="legal_info">
-      <span>2024 © Chextr Inc.</span>
-      <a href="#">Terms of Service</a>
-      <a href="#">Privacy Policy</a>
-    </div>
-    <br>
-    <div class="footer_bar">
-    </div>
-  </footer>
-  <!-- Boostrap Js -->
-  <!-- <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-          -->
+	<header class="header">
+		<nav class="navbar">
+			<div class="brand">
+				<a href="index.html" class="home_link">
+					<img class="logo_image" src="images/logo/logo.svg" alt="" width="50" height="60">
+				</a>
+				<div class="brand-title">
+					<a href="index.html" class="home_link">
+						<div class="brand_name">Deen's Books</div>
+					</a>
+
+					<a href="index.html" class="home_link">
+						<div class="tagline">Books are forever!</div>
+					</a>
+				</div>
+			</div>
+			<a href="#" class="hamburger_button">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</a>
+			<div class="navbar_links">
+				<ul class="nav_list">
+					<li><a href="catalogue.html">BROWSE CATALOGUE</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+
+	<!-- Main content area -->
+	<main class="container">
+		<section class="sales-section">
+			<div class="sales-container">
+				<h2 class="section-title">On Sale</h2>
+				<div class="sales-grid">
+					<div class="sales-book">
+						<img class="sale-image" src="images/index/sale/breatheeyesmemory.png" alt="">
+						<div class="sales-book-text">
+							<p class="sale-title">Breath, Eyes, Memory
+							</p>
+							<p class="price"><span class="sale-price">$2,599</span> Was: <s>$3,300</s></p>
+							<p class="sales-book-desc">At an astonishingly young age, Edwidge Danticat has become
+								one of our most celebrated new novelists, a writer who evokes the wonder, terror, and
+								heartache of her native Haiti--and the enduring strength of Haiti's women.
+							</p>
+						</div>
+						<a class="learn-button" href="books/breath.html">Learn More</a>
+					</div>
+					<div class="sales-book">
+						<img class="sale-image" src="images/index/sale/mockingbird.png"">
+						<div class=" sales-book-text">
+						<p class="sale-title">To Kill a Mockingbird</p>
+						<p class="price"><span class="sale-price">$2,499</span> <span>Was: <s>$3,099</s></span></p>
+						<p class="sales-book-desc">The unforgettable novel of a childhood in a sleepy Southern town
+							and the crisis of conscience that rocked it, To Kill A Mockingbird became both an instant
+							bestseller and a critical success when it was first published in 1960.
+						</p>
+					</div>
+					<a class="learn-button" href="books/mock.html">Learn More</a>
+				</div>
+				<div class="sales-book">
+					<img class="sale-image" src="images/index/sale/faithlessindeath.png">
+					<div class="sales-book-text">
+						<p class="sale-title">Faithless in Death</p>
+						<p class="price"><span class="sale-price" $>4,299</span> Was: <s>$5,099</s></p>
+						<p class="sales-book-desc">In the new Eve Dallas police thriller from #1 New York
+							Times-bestselling author J. D. Robb, what looked like a lover’s quarrel turned fatal has
+							larger―and more terrifying―motives behind it.
+						</p>
+					</div>
+					<a class="learn-button" href="catalogue.html">Learn More</a>
+				</div>
+			</div>
+			</div>
+		</section>
+
+		<hr class="break-1">
+
+		<section class="editor-carousel">
+			<div class="carousel-container">
+				<h2 class="section-title">Staff Picks</h2>
+				<div class="images glide">
+					<div class="glide__track" data-glide-el="track">
+						<ul class="glide__slides">
+							<li class="glide__slide">
+								<a href="catalogue.html"><img class="carousel-image"
+										src="images/index/editor-carousel/imgladmymomdied.png" alt=""></a>
+							</li>
+							<li class="glide__slide">
+								<a href="catalogue.html"><img class="carousel-image"
+										src="images/index/editor-carousel/shining.png" alt=""></a>
+							</li>
+							<li class="glide__slide">
+								<a href="catalogue.html">
+									<img class="carousel-image" src="images/index/editor-carousel/greatgatsby.png"
+										alt="">
+								</a>
+							</li>
+							<li class="glide__slide">
+								<a href="catalogue.html"><img class="carousel-image"
+										src="images/index/editor-carousel/1984.png" alt=""></a>
+							</li>
+							<li class="glide__slide">
+								<a href="catalogue.html"><img class="carousel-image"
+										src="images/index/editor-carousel/hungergames.png" alt=""></a>
+							</li>
+							<li class="glide__slide">
+								<a href="catalogue.html"><img class="carousel-image"
+										src="images/index/editor-carousel/callmebyourname.png" alt=""></a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="glide__arrows" data-glide-el="controls">
+						<button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i
+								class="fa-solid fa-chevron-left"></i></button>
+						<button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i
+								class="fa-solid fa-chevron-right"></i></button>
+					</div>
+				</div>
+				<script>
+					new Glide(".images", {
+						type: 'carousel',
+						perView: 5,
+						focusAt: 'center',
+						gap: 50,
+						breakpoints: {
+							1200: {
+								perView: 3
+							},
+							800: {
+								perView: 2
+							}
+						},
+						autoplay: 4000
+					}).mount();
+				</script>
+			</div>
+		</section>
+
+		<hr class="break-2">
+
+		<section class="genre-section">
+			<div class="genre-container">
+				<h2 class="section-title">Genre Spotlight</h2>
+				<div class="genre-grid">
+					<a href="catalogue.html">
+					<div class="genre-book">
+						<div class="genre">
+							Horror
+						</div>
+						<div class="cover-container">
+							<img src="images/index/genrespotlight/IT.png" alt="">
+						</div>
+					</div>
+					</a>
+					<a href="catalogue.html">
+					<div class="genre-book">
+						<div class="genre">
+							Mystery
+						</div>
+						<div class="cover-container">
+							<img src="images/index/genrespotlight/andthentherewasnone.png" alt="">
+						</div>
+					</div>
+					</a>
+					<a href="catalogue.html">
+					<div class="genre-book">
+						<div class="genre">
+							Fantasy
+						</div>
+						<div class="cover-container">
+							<img src="images/index/genrespotlight/songoficeandfire.png" alt="">
+						</div>
+					</div>
+					</a>
+					<a href="catalogue.html">
+						<div class="genre-book">
+							<div class="genre">
+								Nonfiction
+							</div>
+							<div class="cover-container">
+								<img src="images/index/genrespotlight/thelightwecarry.png" alt="">
+							</div>
+						</div>
+					</a>
+					<a href="catalogue.html">
+						<div class="genre-book">
+							<div class="genre">
+								Children's Fiction
+							</div>
+							<div class="cover-container">
+								<img src="images/index/genrespotlight/iwantmyhatback.png" alt="">
+							</div>
+						</div>
+					</a>
+					<a href="catalogue.html">
+						<div class="genre-book">
+							<div class="genre">
+								Romance
+							</div>
+							<div class="cover-container">
+								<img src="images/index/genrespotlight/prideandprejudice.png" alt="">
+							</div>
+						</div>
+					</a>
+					<a href="catalogue.html">
+						<div class="genre-book">
+							<div class="genre">
+								Thriller
+							</div>
+							<div class="cover-container">
+								<img src="images/index/genrespotlight/gonegirl.png" alt="">
+							</div>
+						</div>
+					</a>
+					<a href="catalogue.html">
+						<div class="genre-book">
+							<div class="genre">
+								Historical
+							</div>
+							<div class="cover-container">
+								<img src="images/index/genrespotlight/caribbeanhistory.png" alt="">
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="footer_container-left">
+			<div class="footer_brand">
+				<p class="footer_brand-title">DEEN'S BOOKS</p>
+				<p class="footer_tagline"><i>Books are forever!</i></p>
+			</div>
+			<div class="footer_nav">
+				<p class="footer_title">Sections</p>
+				<div class="footer_nav-content">
+					<ul class="footer_nav-list">
+						<li> <a href="catalogue.html">Catalogue</a> </li>
+						<li> <a href="contact.html">Contact Us</a> </li>
+						<li> <a href="faq.html">Freqently Asked Questions</a> </li>
+						<li> <a href="about.html">About Us</a> </li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer_socials">
+				<div class="footer_icons-row">
+					<a href="https://www.facebook.com/">
+						<i class="fa-brands fa-facebook"></i>
+					</a>
+					<a href="https:/www.instagram.com/">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+				</div>
+				<div class="footer_icons-col">
+					<div class="footer_contact">
+						<i class="fa-brands fa-whatsapp"></i>
+						<div class="tooltip">
+							<button onclick="copyPhone()" onmouseout="reTooltip()" class="copy-button">
+								<span class="tooltiptext">Copy</span>
+								<p id="copy-phone">+592 678-3940</p>
+							</button>
+						</div>
+					</div>
+					<div class="footer_contact">
+						<i class="fa-solid fa-envelope"></i>
+						<div class="tooltip">
+							<button onclick="copyEmail()" onmouseover="reTooltip()" onmouseout="reTooltip()"
+								class="copy-button">
+								<span class="tooltiptext">Copy</span>
+								<p id="copy-email">DeensBooks@gmail.com</p>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_container-right">
+			<p class="footer_title">Find Us</p>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d990.4111256435499!2d-58.16277332675524!3d6.813022353822624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgy!4v1670219961936!5m2!1sen!2sgy"
+				class="map" style="border:0;" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+		</div>
+	</footer>
+	<!-- End of Footer -->
 </body>
+
 </html>
