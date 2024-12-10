@@ -38,18 +38,22 @@
   width: 50vh;
 }
 
-@media (prefers-reduced-motion: no-preference ) {
+@media (prefers-reduced-motion: no-preference) {
   .feature_img_container img {
-    scale: 0.8; opacity: 0;
+    scale: 0.8;
+    opacity: 0;
     animation: fade-in linear forwards;
     animation-timeline: view();
-    animation-range-start: 250px; 
+    animation-range-start: 250px;
     animation-range-end: 500px;
   }
 }
 
 @keyframes fade-in {
-  to {scale: 1; opacity: 1;}
+  to {
+    scale: 1;
+    opacity: 1;
+  }
 }
 
 .feature_desc_container {
@@ -63,7 +67,7 @@
 
 @media (max-width: 780px) {
   .feature_text h1 {
-    font-size: var(--fs-600);
+    font-size: var(--fs-700);
   }
 }
 
@@ -114,4 +118,3 @@
     font-size: var(--fs-600);
   }
 }
-
